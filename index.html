@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Maksym Zelinskyi - CV</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+    <style> .lang-btn { cursor: pointer; } </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+	<header class="bg-white shadow py-4 px-6 flex justify-between items-center"> 
+		<h1 class="text-2xl font-bold">Maksym Zelinskyi</h1>
+        <div>
+        	<span class="lang-btn text-blue-600" onclick="setLanguage('fr')">🇫🇷</span>
+            <span class="lang-btn text-blue-600" onclick="setLanguage('en')">🇬🇧</span>
+        </div>
+    </header>
+    
+<main class="max-w-4xl mx-auto px-4 py-10 space-y-10">
+	<section>
+    	<h2 class="text-xl font-bold" id="title-intro">About Me</h2>
+        <p id="intro-text">
+        	Self-taugth aspiring software engineer. 17 years old but I master microservices architecure
+        </p>
+   </section>
+   <section>
+   	<h2 class="text-xl font-bold" id="title-skills">Skills</h2>
+    <ul class="list-disc list-inside" id="skills-list">
+    	<li>Java, Spring Boot, Hibernate</li>
+        <li>Docker, Git, Swagger</li>
+        <li>HTML, CSS, Angular</li>
+    </ul>    
+   </section>  
+   <section>
+   	<h2 class="text-xl font-bold" id="title-skills">Skills</h2>
+    <ul class="list-disc list-inside" id="skills-list">
+    	<li>Java, Spring Boot, Hibernate</li>
+        <li>Docker, Git, Swagger</li>
+        <li>HTML, CSS, Angular</li>
+    </ul>    
+   </section>
+   <section>
+   	<h2 class="text-xl font-bold" id="title-projects">Projects</h2>
+    <ul class="space-y-2" id="projects-list">
+    	<li>🛒 Online Store - team project with a microservices architecture</li>
+        <li>💬 Social Network - Spring Boot + Angular(call me a fullstack developer)</li>
+        <li>🔐 JWT auth API</li>
+        <li>💳 Cash Register MVC - two versions: Java Servlets + JDBC; Spring Boot + Hibernate</li>
+   </ul>
+  </section>
+ </main> 
+
+</body>
+</html>
