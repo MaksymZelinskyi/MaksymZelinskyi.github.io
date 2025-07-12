@@ -13,7 +13,7 @@ const translations = {
     "projects-list": `
   <li>🛒 <a href="https://github.com/Hennadiii/Online-Store-562team" target="_blank" class="text-blue-600 underline">Boutique en ligne</a> – projet en équipe en architecture microservices</li>
   <li>💬 <a href="https://github.com/MaksymZelinskyi/my_social_media" target="_blank" class="text-blue-600 underline">Réseau social</a> – Spring Boot + Angular (appelez-moi fullstack)</li>
-  <li>🔐 <a href="https://github.com/MaksymZelinskyi/jwt-demo" target="_blank" class="text-blue-600 underline">API sécurisée avec JWT Auth</a> - Ici j'ai appris à mettre en place la sécurité JWT</li>
+  <li>🔐 <a href="https://github.com/MaksymZelinskyi/knowledge-hub-api" target="_blank" class="text-blue-600 underline">API sécurisée avec JWT Auth</a> - Ici j'ai appris à mettre en place la sécurité JWT</li>
   <li>💳 <a href="https://github.com/MaksymZelinskyi/cash-register_spring" target="_blank" class="text-blue-600 underline">Caisse en MVC</a> – deux versions : Java Servlets + JDBC ; Spring Boot + Hibernate</li>
     `,
     "title-extracurriculars": "🧩 Activités extra-scolaires",
@@ -29,7 +29,14 @@ const translations = {
       <li>📞 +33 7 67 45 85 10</li>
       <li>📍 Narbonne, France</li>
       <li>🔗 <a href=\"https://www.linkedin.com/in/maksym-zelinskyi-7943a2312/\" target=\"_blank\" class=\"text-blue-600 underline\">LinkedIn</a></li>
-    `
+      <li>
+        <a href="https://www.github.com/MaksymZelinskyi" target="_blank" class="text-blue-600 underline" style="display: inline-flex; align-items: center; gap: 6px;">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+             alt="GitHub" width="20" height="20">
+            GitHub
+        </a>
+      </li>
+  `
   },
 
   en: {
@@ -46,7 +53,7 @@ const translations = {
     "projects-list": `
   <li>🛒 <a href="https://github.com/Hennadiii/Online-Store-562team" target="_blank" class="text-blue-600 underline">Online Store</a> – team project using microservices architecture</li>
 <li>💬 <a href="https://github.com/MaksymZelinskyi/my_social-media" target="_blank" class="text-blue-600 underline">Social Network</a> – Spring Boot + Angular (call me fullstack)</li>
-<li>🔐 <a href="https://github.com/MaksymZelinskyi/jwt-demo" target="_blank" class="text-blue-600 underline">JWT-secured API</a> - Here I learned how to implement JWT security</li>
+<li>🔐 <a href="https://github.com/MaksymZelinskyi/knowledge-hub-api" target="_blank" class="text-blue-600 underline">JWT-secured API</a> - Here I learned how to implement JWT security</li>
 <li>💳 <a href="https://github.com/MaksymZelinskyi/cash-register_spring" target="_blank" class="text-blue-600 underline">Cash Register (MVC)</a> – two versions: Java Servlets + JDBC; Spring Boot + Hibernate</li>
 
 `,
@@ -63,7 +70,14 @@ const translations = {
       <li>📞 +33 7 67 45 85 10</li>
       <li>📍 Narbonne, France</li>
       <li>🔗 <a href=\"https://www.linkedin.com/in/maksym-zelinskyi-7943a2312/\" target=\"_blank\" class=\"text-blue-600 underline\">LinkedIn</a></li>
-    `
+      <li>
+          <a href="https://www.github.com/MaksymZelinskyi" target="_blank" class="text-blue-600 underline" style="display: inline-flex; align-items: center; gap: 6px;">
+              <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="GitHub" width="20" height="20">
+              GitHub
+          </a>
+      </li>
+      `
   }
 };
 
