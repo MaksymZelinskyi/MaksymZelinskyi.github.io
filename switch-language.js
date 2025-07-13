@@ -2,13 +2,24 @@ const translations = {
   fr: {
     "title-intro": "À propos de moi",
     "intro-text": "Développeur autodidacte en devenir. J’ai 17 ans mais je maîtrise déjà l’architecture microservices.",
-    "title-skills": "Compétences",
+    "title-skills": "Compétences techniques",
     "skills-list": `
        <li>Java, Spring Boot, Hibernate, .NET</li>
        <li>Docker, Git, Swagger, Jasper</li>
 	  <li>PostgreSQL, Redis, JDBC</li>
        <li>HTML, CSS, Angular</li>
     `,
+    "title-soft-skills": "Qualités personnelles",
+    "soft-skills-list": `
+      <li><strong>Adaptabilité :</strong> Je suis passé de "Bonjour ! Mersi" à un 16/20 au Bac de français en seulement 3 ans</li>
+      <li><strong>Résolution de problèmes :</strong> J'ai résolu plus de 60 problèmes sur LeetCode</li>
+      <li><strong>Travail d'équipe :</strong> J'ai contribué à deux projets en équipe</li>
+      <li><strong>Gestion du temps :</strong> Je planifie chaque heure de ma journée pour concilier entraînements et études</li>
+      <li><strong>Esprit d’initiative :</strong> Accro à la productivité, je vais toujours au-delà des attentes</li>
+      <li><strong>Discipline :</strong> Entraînements de calisthénie et contributions GitHub quotidiens</li>
+      <li><strong>Humour / Optimisme :</strong> Mon pays a élu un humoriste comme président</li>
+    `,
+
     "title-projects": "Projets",
     "projects-list": `
   <li>🛒 <a href="https://github.com/Hennadiii/Online-Store-562team" target="_blank" class="text-blue-600 underline">Boutique en ligne</a> – projet en équipe en architecture microservices</li>
@@ -42,12 +53,22 @@ const translations = {
   en: {
     "title-intro": "About Me",
     "intro-text": "Self-taught aspiring software engineer. 17 years old but I master microservices architecture.",
-    "title-skills": "Skills",
+    "title-skills": "Hard Skills",
     "skills-list": `
        <li>Java, Spring Boot, Hibernate, .NET</li>
        <li>Docker, Git, Swagger, Jasper</li>
 	  <li>PostgreSQL, Redis, JDBC</li>
        <li>HTML, CSS, Angular</li>
+    `,
+    "title-soft-skills": "Soft Skills",
+    "soft-skills-list": `
+            <li><strong>Adaptability:</strong> Achieved fluency in French after 3 years living in France</li>
+            <li><strong>Problem-solving:</strong> Solved 60+ challenges on LeetCode</li>
+            <li><strong>Teamwork:</strong> Contributed to two collaborative software projects</li>
+            <li><strong>Time Management:</strong> Planned every hour of the day to balance studying and daily workouts</li>
+            <li><strong>Initiative:</strong> Continuously seeking improvement, always going the extra mile</li>
+            <li><strong>Discipline:</strong> Maintain consistent daily calisthenics and GitHub contributions</li>
+            <li><strong>Humor:</strong> My country elected a comedian as president – I took it personally :)</li>
     `,
     "title-projects": "Projects",
     "projects-list": `
